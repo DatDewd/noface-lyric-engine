@@ -1,0 +1,1227 @@
+{
+  "schema_version": "1.1",
+  "config_name": "pristine_rap_lyric_generation_with_emotional_depth",
+  "created_by": "NoFace",
+
+  "language": {
+    "en-US": false,
+    "en-UK": false,
+    "es-ES": false,
+    "fr-FR": false,
+    "custom": true,
+  "custom_language_code": "ebonics",
+
+  "song_structure": [
+    "intro",
+    "verse_1",
+    "hook_1",
+    "verse_2",
+    "hook_1",
+    "bridge",
+    "hook_1",
+    "outro"
+  ],
+  "section_lengths": {
+    "intro": 4,      
+    "verse_1": 16,   
+    "hook_1": 8,     
+    "verse_2": 16,   
+    "bridge": 8,    
+    "outro": 4      
+  },
+
+ 
+  
+  "pdf_reference_material": {
+    "facts": [],
+    "ideas": [],
+    "topics": []
+  },
+
+
+
+"section_prompts": {
+  "intro": "Set the tone by highlighting systemic injustice and the urgency for change, using vivid imagery and emotional weight.",
+  "verse_1": "Describe personal or community experiences with oppression, police brutality, and social inequality, incorporating raw emotions and sensory details.",
+  "hook_1": "Craft a powerful, memorable chorus that calls for unity, resilience, and hope amid struggle, with layered meaning and repetition.",
+  "verse_2": "Explore the strength found in community empowerment, activism, and resistance, including moments of vulnerability and determination.",
+  "bridge": "Deliver a rallying call to action, inspiring listeners to stand up, speak out, and join the movement for justice.",
+  "outro": "Reflect on the ongoing journey toward equality, acknowledging setbacks but affirming hope and collective progress."
+  },
+"primary_genres": {
+  "Boom Bap": true,
+  "Conscious": true
+},
+
+    "subgenres": {
+      "Punchline": true, 
+      "Political": true 
+    },
+    "bpm_target": 86, 
+    
+    
+    
+    
+    
+    
+    "rhythmic_profile": {
+      "boom-bap swing": true,  
+      "trap triplet": false,   
+      "straight 4/4": false,   
+      "off-beat syncopation": true, 
+      "double-time": false,    
+      "half-time": false       
+    },
+   "tone": {
+  "Brutal Honesty": true,      
+  "Introspective": false,      
+  "Aggressive": false,         
+  "Playful": false,            
+  "Melancholic": false,        
+  "Satirical": false,          
+  "Defiant": false,            
+  "Paranoid": false,           
+  "Boastful": false,           
+  "Menacing": false,           
+  "Detached": false,           
+  "Euphoric": false,           
+  "Nihilistic": false,         
+  "Spiritual": false,          
+  "Sarcastic": false,          
+  "Aggrieved": false,          
+  "Luxurious": false,          
+  "Cynical": false,            
+  "Romantic": false,           
+  "Anguished": false,          
+  "Irony-Drenched": false,     
+  "Cold": false,               
+  "Hype": false,               
+  "Gritty": false,             
+  "Whimsical": false,          
+  "Sinister": false,           
+  "Resigned": false,           
+  "Nostalgic": false,          
+  "Utopian": false,            
+  "Dystopian": false,          
+  "Sardonic": false,           
+  "Bitter": false,             
+  "Triumphant": false,         
+  "Desperate": false,          
+  "Clinical": false,           
+  "Street Preacher": false,    
+  "Battle-Ready": false,       
+  "Psychedelic": false,        
+  "Absurdist": false,          
+  "Confessional": false,       
+  "Disillusioned": false,      
+  "Unhinged": false            
+    },
+    "mood": {
+  "Gallows Humor Over Trauma": true, 
+  "Uplifting": false,                
+  "Dark and Moody": false,           
+  "Reflective": false,               
+  "Angry": false,                   
+  "Hopeful": false,                 
+  "Somber": false,                  
+  "Energetic": false,               
+  "Playful": false,                 
+  "Melancholy": false,              
+  "Romantic": false,                
+  "Nostalgic": false,               
+  "Aggressive": false,              
+  "Peaceful": false,                
+  "Tense": false,                   
+  "Triumphant": false               
+    },
+    "voice": {
+  "Cutting": true,           
+  "Defensive": true,         
+  "Poetic": true,            
+  "Smooth": false,           
+  "Laid-back": false,        
+  "Raw": false,              
+  "Gritty": false,           
+  "Energetic": false,        
+  "Hype": false,             
+  "Cold": false,             
+  "Detached": false,         
+  "Emotional": false,        
+  "Aggressive": false,       
+  "Melodic": false,          
+  "Monotone": false,         
+  "Dynamic": false           
+    },
+    "artist_anchors": {
+  "Eminem": false, 
+  
+  
+  
+  
+
+  "Joe Budden": false,      
+  
+  
+  
+
+  "Ab-Soul": false,         
+  
+  
+  
+
+  "Kid Cudi": false,        
+  
+  
+  
+
+  "Angel Haze": false,      
+  
+  
+  
+
+  
+  "Tupac Shakur": false,    
+  
+  
+
+  "Kendrick Lamar": false,  
+  
+  
+  
+
+  "Talib Kweli": false,     
+  
+  
+  
+
+  "Public Enemy": false,    
+  
+  
+  
+
+  
+  "DMX": false,             
+  
+  
+  
+
+  "Ghostface Killah": false,
+  
+  
+  
+
+  "Tech N9ne": false,       
+  
+  
+  
+
+  "ScHoolboy Q": false,     
+  
+  
+  
+
+  "Vince Staples": false,   
+  
+  
+  
+
+  
+  "Tyler, The Creator": false, 
+  
+  
+  
+
+  "Noname": false,             
+  
+  
+  
+
+  "Little Simz": false,        
+  
+  
+  
+
+  "Earl Sweatshirt": false,    
+  
+  
+  
+
+  
+  "Chance The Rapper": false,  
+  
+  
+  
+
+  "J. Cole": false,            
+  
+  
+  
+
+  "Westside Boogie": false,   
+  
+  
+  
+
+  "Nas": false,
+  
+  
+  
+  
+
+  "Jay-Z": false
+  
+  
+  
+  
+    },
+    
+"vocab_domain": {
+      "activism": true,               
+      "witness testimony": true     
+      
+    },
+    "allow_profanity": true,
+    "rhyme_complexity": {
+      "basic": false,
+      "intermediate": false,
+      "advanced": true 
+    },
+    "narrative_perspective": {
+      "first-person": true,  
+      "third-person": false,
+      "omniscient": false,
+      "stream of consciousness": false
+    },
+    "lyrical_density": {
+      "low": false,
+      "medium": false,
+      "high": true 
+    },
+    "figurative_language": {
+      "metaphor": true,
+      "allegory": true,
+      "simile": false,
+      "personification": false,
+      "hyperbole": false
+    },
+    "target_audience": {
+      "social_activists": true,
+      "hip-hop_purists": true,
+      "poetry_enthusiasts": true,
+      "mainstream_listeners": false,
+      "club_goers": false,
+      "underground_fans": false
+    }
+  },
+
+  
+  
+"lexical_layering": {
+  "section_metaphor_subthemes": [
+    
+    {
+      "section": "verse_1",
+      "sub_theme": "Math/Data",
+      "enabled": false,
+      "rhyme_pairs": ["rate/state", "sum/dumb", "code/mode"]
+    },
+    {
+      "section": "verse_1",
+      "sub_theme": "Geometry",
+      "enabled": true,
+      "rhyme_pairs": ["angle/tangle", "vertex/perplex", "line/design"]
+    },
+    {
+      "section": "verse_1",
+      "sub_theme": "Metaphysics & Cosmos",
+      "enabled": false,
+      "rhyme_pairs": ["void/voided", "star/afar", "time/rhyme"]
+    },
+    {
+      "section": "verse_1",
+      "sub_theme": "Identity & Mirrors",
+      "enabled": true,
+      "rhyme_pairs": ["face/trace", "mask/task", "real/feel"]
+    },
+    {
+      "section": "verse_1",
+      "sub_theme": "Urban Jungle",
+      "enabled": false,
+      "rhyme_pairs": ["concrete/beat", "streets/heat", "grind/find"]
+    },
+    {
+      "section": "verse_1",
+      "sub_theme": "Urban Struggle",
+      "enabled": true,
+      "rhyme_pairs": ["grind/find", "streets/beats", "hustle/muscle"]
+    },
+    {
+      "section": "verse_1",
+      "sub_theme": "Funny Wordplay & Puns",
+      "enabled": true,
+      "rhyme_pairs": ["cake/fake", "shake/bake", "flake/snake"]
+    },
+    {
+      "section": "verse_1",
+      "sub_theme": "Absurd & Silly Imagery",
+      "enabled": false,
+      "rhyme_pairs": ["pants/ants", "boots/fruits", "clown/down"]
+    },
+    {
+      "section": "verse_1",
+      "sub_theme": "Pop Culture Jabs",
+      "enabled": true,
+      "rhyme_pairs": ["Tatum/chaining", "Malcolm/jeans", "Marvin/boogie"]
+    },
+    {
+      "section": "verse_1",
+      "sub_theme": "Raw Street Reality",
+      "enabled": true,
+      "rhyme_pairs": ["pain/drain", "grind/find", "cold/fold"]
+    },
+    {
+      "section": "verse_1",
+      "sub_theme": "Blunt Truths",
+      "enabled": false,
+      "rhyme_pairs": ["real/feel", "truth/ruth", "fact/act"]
+    },
+    {
+      "section": "verse_1",
+      "sub_theme": "Explicit Sexual Agency",
+      "enabled": false,
+      "rhyme_pairs": ["pleasure/measure", "touch/much", "heat/seat"]
+    },
+
+    
+    {
+      "section": "verse_2",
+      "sub_theme": "Physics/Time",
+      "enabled": true,
+      "rhyme_pairs": ["clock/shock", "phase/maze", "pendulum/maximum"]
+    },
+    {
+      "section": "verse_2",
+      "sub_theme": "Psychological Battles",
+      "enabled": false,
+      "rhyme_pairs": ["mind/find", "fear/clear", "break/fake"]
+    },
+    {
+      "section": "verse_2",
+      "sub_theme": "Nature Cycles",
+      "enabled": true,
+      "rhyme_pairs": ["bloom/gloom", "roots/shoots", "storm/warm"]
+    },
+    {
+      "section": "verse_2",
+      "sub_theme": "Social Rebellion",
+      "enabled": false,
+      "rhyme_pairs": ["rise/surprise", "fight/night", "chains/pains"]
+    },
+    {
+      "section": "verse_2",
+      "sub_theme": "Lost Innocence",
+      "enabled": false,
+      "rhyme_pairs": ["child/wild", "dream/scream", "pure/blur"]
+    },
+    {
+      "section": "verse_2",
+      "sub_theme": "Survival & Resilience",
+      "enabled": true,
+      "rhyme_pairs": ["rise/surprise", "pain/gain", "fight/night"]
+    },
+    {
+      "section": "verse_2",
+      "sub_theme": "Clever Similes",
+      "enabled": true,
+      "rhyme_pairs": ["waiter/plates", "dragon/flaggin'", "ice/brick"]
+    },
+    {
+      "section": "verse_2",
+      "sub_theme": "Self-Deprecating Humor",
+      "enabled": false,
+      "rhyme_pairs": ["doctor/patience", "short/cut", "mock/rock"]
+    },
+    {
+      "section": "verse_2",
+      "sub_theme": "Unexpected Twists",
+      "enabled": true,
+      "rhyme_pairs": ["gay/boogie", "brain/train", "fart/smart"]
+    },
+    {
+      "section": "verse_2",
+      "sub_theme": "Aggressive Desire",
+      "enabled": false,
+      "rhyme_pairs": ["grind/find", "bite/night", "lust/trust"]
+    },
+    {
+      "section": "verse_2",
+      "sub_theme": "Strong Language & Attitude",
+      "enabled": true,
+      "rhyme_pairs": ["fuck/duck", "shit/hit", "bitch/glitch"]
+    },
+    {
+      "section": "verse_2",
+      "sub_theme": "Grimy Hustle",
+      "enabled": true,
+      "rhyme_pairs": ["cash/dash", "trap/rap", "schemes/dreams"]
+    },
+
+    
+    {
+      "section": "bridge",
+      "sub_theme": "Engineering",
+      "enabled": true,
+      "rhyme_pairs": ["print/hint", "gear/near", "build/filled"]
+    },
+    {
+      "section": "bridge",
+      "sub_theme": "Uncanny & Surreal",
+      "enabled": true,
+      "rhyme_pairs": ["glitch/switch", "dream/stream", "fake/quake"]
+    },
+    {
+      "section": "bridge",
+      "sub_theme": "Afterlife & Legacy",
+      "enabled": false,
+      "rhyme_pairs": ["ghost/most", "fade/raid", "past/last"]
+    },
+    {
+      "section": "bridge",
+      "sub_theme": "Systemic Chains",
+      "enabled": true,
+      "rhyme_pairs": ["cage/rage", "chain/pain", "lock/rock"]
+    },
+    {
+      "section": "bridge",
+      "sub_theme": "Playful Braggadocio",
+      "enabled": true,
+      "rhyme_pairs": ["balls/Chris Webber", "booty/beauty", "hot/spot"]
+    },
+    {
+      "section": "bridge",
+      "sub_theme": "Mocking & Sarcasm",
+      "enabled": false,
+      "rhyme_pairs": ["fart/smart", "fake/bake", "saggin'/flaggin'"]
+    },
+    {
+      "section": "bridge",
+      "sub_theme": "Manipulation & Transaction",
+      "enabled": false,
+      "rhyme_pairs": ["pay/day", "deal/real", "fake/take"]
+    },
+    {
+      "section": "bridge",
+      "sub_theme": "Dark Humor & Sarcasm",
+      "enabled": false,
+      "rhyme_pairs": ["joke/broke", "laugh/half", "snark/shark"]
+    },
+
+    
+    {
+      "section": "hook_1",
+      "sub_theme": "Decay & Time",
+      "enabled": false,
+      "rhyme_pairs": ["rust/trust", "dust/must", "fade/raid"]
+    },
+    {
+      "section": "hook_1",
+      "sub_theme": "Duality & Paradox",
+      "enabled": true,
+      "rhyme_pairs": ["light/flight", "shade/raid", "truth/youth"]
+    },
+    {
+      "section": "hook_1",
+      "sub_theme": "Hope & Resilience",
+      "enabled": true,
+      "rhyme_pairs": ["rise/surprise", "heal/real", "strong/long"]
+    },
+    {
+      "section": "hook_1",
+      "sub_theme": "Concrete Jungle",
+      "enabled": true,
+      "rhyme_pairs": ["cold/hold", "block/clock", "steel/real"]
+    },
+    {
+      "section": "hook_1",
+      "sub_theme": "Lighthearted Swagger",
+      "enabled": true,
+      "rhyme_pairs": ["fly/why", "hot/spot", "cool/rule"]
+    },
+    {
+      "section": "hook_1",
+      "sub_theme": "Funny Observations",
+      "enabled": true,
+      "rhyme_pairs": ["jeans/means", "cake/fake", "brain/train"]
+    },
+    {
+      "section": "hook_1",
+      "sub_theme": "Edgy Rebellion",
+      "enabled": true,
+      "rhyme_pairs": ["fight/night", "riot/quiet", "rage/page"]
+    },
+    {
+      "section": "hook_1",
+      "sub_theme": "Cynical Observations",
+      "enabled": false,
+      "rhyme_pairs": ["fake/break", "lies/eyes", "scam/wham"]
+    },
+    {
+      "section": "hook_1",
+      "sub_theme": "Objectification & Power",
+      "enabled": false,
+      "rhyme_pairs": ["chain/pain", "hold/cold", "game/flame"]
+    },
+
+    
+    {
+      "section": "verse_3",
+      "sub_theme": "Voicelessness & Silence",
+      "enabled": false,
+      "rhyme_pairs": ["mute/root", "quiet/riot", "hush/crush"]
+    },
+    {
+      "section": "verse_3",
+      "sub_theme": "Mythic & Legendary",
+      "enabled": true,
+      "rhyme_pairs": ["atlas/balance", "zeus/news", "prometheus/fire"]
+    },
+    {
+      "section": "verse_3",
+      "sub_theme": "Emotional Turmoil",
+      "enabled": true,
+      "rhyme_pairs": ["pain/rain", "scar/afar", "tear/fear"]
+    },
+
+    
+    {
+      "section": "outro",
+      "sub_theme": "Redemption & Growth",
+      "enabled": true,
+      "rhyme_pairs": ["heal/real", "strong/long", "free/see"]
+    },
+    {
+      "section": "outro",
+      "sub_theme": "Reflection & Time",
+      "enabled": false,
+      "rhyme_pairs": ["past/last", "clock/rock", "fade/raid"]
+    },
+    {
+      "section": "outro",
+      "sub_theme": "Cosmic Wonder",
+      "enabled": false,
+      "rhyme_pairs": ["star/afar", "void/avoid", "space/face"]
+    },
+    {
+      "section": "outro",
+      "sub_theme": "Graphic Explicit Content",
+      "enabled": false,
+      "rhyme_pairs": ["wild/child", "raw/law", "deep/keep"]
+    }
+  ],
+  "enabled": true 
+},
+
+  "conceptual_subthemes": {
+    "use_double_meanings": true, 
+    "symbolic_rhyme_examples": [
+      { "rhyme": "mourning/morning", "theme": "loss/new beginnings" },
+      { "rhyme": "reign/rain", "theme": "power/cleansing" },
+      { "rhyme": "shroud/allowed", "theme": "death/permission" },
+      { "rhyme": "veil/sale", "theme": "deception/transaction" },
+	{ "rhyme": "rise/guise", "theme": "growth/deception" },
+	{ "rhyme": "fire/choir", "theme": "passion/voice" },
+	{ "rhyme": "stone/thrown", "theme": "hardship/conflict" },
+	{ "rhyme": "chain/rain", "theme": "bondage/freedom" },
+	{ "rhyme": "light/night", "theme": "hope/darkness" },
+	{ "rhyme": "mask/task", "theme": "identity/duty" },
+	{ "rhyme": "break/fake", "theme": "truth/deception" },
+	{ "rhyme": "soul/goal", "theme": "spirit/ambition" }
+    ]
+  },
+  "contrasting_subthemes": {
+    "enabled": true, 
+    "example_pairs": [
+      { "positive": "love", "negative": "shove" },
+      { "positive": "light", "negative": "plight" },
+      { "positive": "grace", "negative": "space" },
+      { "positive": "hope", "negative": "cope" },
+	 { "positive": "peace", "negative": "cease" },
+	 { "positive": "rise", "negative": "fall" },
+	 { "positive": "truth", "negative": "lies" },
+	 { "positive": "win", "negative": "sin" },
+	 { "positive": "calm", "negative": "storm" },
+	 { "positive": "faith", "negative": "fate" },
+ 	 { "positive": "free", "negative": "bound" },
+	 { "positive": "dream", "negative": "scream" }
+    ]
+  },
+  "sonic_subthemes": {
+    "conflict": {
+      "harsh_endings": ["-ack", "-itch", "-ash"], 
+      "enabled": true
+    },
+    "melancholy": {
+      "soft_endings": ["-ine", "-oom", "-ease", "-ight"], 
+      "enabled": true
+    }
+  },
+  "narrative_subthemes": {
+    "hidden_story_enabled": true, 
+    "scheme": "ABAB", 
+    "instructions": "Rhyme 'A' advances the main theme; rhyme 'B' carries the sub-theme or hidden narrative."
+  },
+  "cultural_historical_subthemes": {
+    "enabled": true, 
+    "examples": [
+      { "mythic": "Atlas", "modern": "balance" },
+      { "mythic": "Odin", "modern": "rotten" },
+      { "mythic": "Prometheus", "modern": "fire" },
+      { "mythic": "Zeus", "modern": "news" }
+    ]
+  },
+
+  
+  
+  "thematic_subthemes": {
+    "universal_subthemes": {
+      "time": true,                 
+      "light_dark": true,           
+      "nature": true,               
+      "mirrors_reflections": true, 
+      "masks_disguises": true,      
+	"love_loss": true,          
+     "freedom_constraint": true, 
+  	"journey_destination": true, 
+  	"fire_water": true,         
+  	"silence_noise": true       
+    },
+    "emotional_psychological_subthemes": {
+      "longing": true,              
+      "betrayal": true,             
+      "isolation": true,            
+      "madness": true,              
+      "innocence_lost": true,        
+	 "grief": true,               
+  	 "hope": true,                
+  	 "fear": true,                
+  	 "regret": true,              
+  	 "obsession": true            
+    },
+    "social_political_subthemes": {
+      "power_corruption": true,     
+      "rebellion": true,            
+      "inequality": true,           
+      "illusion_of_progress": true, 
+      "voicelessness": true,         
+	 "surveillance": true,         
+  	 "media_manipulation": true,   
+  	 "environmental_decay": true,  
+  	 "solidarity": true,            
+  	 "displacement": true          
+    },
+    "mythic_existential_subthemes": {
+      "fate_vs_free_will": true,    
+      "afterlife": true,            
+      "gods_monsters": true,        
+      "uncanny": true,              
+      "nothingness": true,           
+	 "mythic_existential_subthemes": {
+ 	 "fate_vs_free_will": true,    
+ 	 "afterlife": true,            
+  	"gods_monsters": true,        
+  	"uncanny": true,              
+  	"nothingness": true           
+    },
+    "everyday_deeper_meaning": {
+      "doors_thresholds": true,     
+      "clocks_timepieces": true,    
+      "fading_ink": true,           
+      "broken_tools": true,         
+      "unsent_letters": true,        
+	 "flickering_lights": true,    
+  	 "empty_chairs": true,         
+  	 "worn_paths": true,           
+ 	 "rusted_chains": true,        
+  	 "cracked_mirrors": true       
+    },
+    "sensory_atmospheric_subthemes": {
+      "echoes": true,               
+   	 "shadows": true,              
+  	 "dust": true,                 
+  	 "rust": true,                 
+  	 "silence": true,              
+ 	 "fog": true,                  
+  	 "whispers": true,             
+  	 "frost": true,                
+  	 "glimmer": true,              
+  	 "static": true                
+    }
+  },
+  "Smok&Drank_subthemes": {
+    "enabled": true,
+    "subthemes": [
+      {
+        "name": "Ritual & Relaxation",
+        "enabled": true,
+        "description": "Calming, meditative, and habitual aspects of smoking weed and sipping brandy.",
+        "rhyme_pairs": ["chill/ill", "high/sky", "breeze/trees", "smooth/groove", "sip/drip"]
+      },
+      {
+        "name": "Rebellion & Counterculture",
+        "enabled": true,
+        "description": "Symbols of defiance against authority and societal norms through cannabis and brandy culture.",
+        "rhyme_pairs": ["leaf/thief", "smoke/broke", "freedom/kingdom", "toast/ghost", "break/fake"]
+      },
+      {
+        "name": "Spirituality & Enlightenment",
+        "enabled": true,
+        "description": "Cannabis and brandy as tools for spiritual growth, insight, and connection.",
+        "rhyme_pairs": ["light/sight", "mind/find", "soul/whole", "fire/higher", "spirit/merit"]
+      },
+      {
+        "name": "Community & Togetherness",
+        "enabled": true,
+        "description": "Shared experiences, bonding, and cultural identity around cannabis and E&J brandy.",
+        "rhyme_pairs": ["circle/miracle", "pass/class", "friend/end", "crew/view", "fam/ram"]
+      },
+      {
+        "name": "Legacy & Lifestyle",
+        "enabled": true,
+        "description": "Honoring the rich history and cultural impact of E&J brandy and cannabis in music and life.",
+        "rhyme_pairs": ["past/cast", "legacy/energy", "smooth/groove", "classic/drastic", "flow/glow"]
+      },
+      {
+        "name": "Activism & Liberation",
+        "enabled": true,
+        "description": "The fight for legalization, social justice, and breaking stigma around cannabis and alcohol culture.",
+        "rhyme_pairs": ["law/war", "change/strange", "voice/choice", "free/see", "rise/surprise"]
+      },
+      {
+        "name": "Drinking Slang & Culture",
+        "enabled": true,
+        "description": "Ebonics and hip-hop slang terms for drinking, capturing lifestyle, vibe, and cultural significance.",
+        "terms": [
+          "sippin'", "pourin' up", "drank", "henny", "erk & jerk", "toastin'",
+          "faded", "lit", "turnt", "juice", "sauce", "crunk", "wasted", "sloshed"
+        ],
+        "example_phrases": [
+          "Sippin' on that Erk & Jerk, laid back and chill.",
+          "Pourin' up the Henny, toastin' to the night.",
+          "Gettin' faded, feelin' right, vibin' with the crew."
+        ],
+        "rhyme_pairs": [
+          "sip/drip", "pour/floor", "drink/link", "toast/ghost", "buzz/fuzz"
+        ]
+      },
+      {
+        "name": "Smoking Slang & Culture",
+        "enabled": true,
+        "description": "Ebonics and hip-hop slang terms for smoking marijuana, capturing culture, lifestyle, and vibe.",
+        "terms": [
+          "weed", "pot", "grass", "dope", "ganja", "herb", "chronic", "dank", "loud",
+          "sticky-icky", "trees", "nuggets", "flower", "bud", "kush", "gas", "green",
+          "mary jane", "reefer", "skunk", "zaza"
+        ],
+        "verbs": [
+          "toking", "blazing", "cheeching", "burning one down", "torching up",
+          "puffing", "chiefing", "blowing smoke", "getting the wind", "mowing the grass",
+          "smoking trees", "dabbing"
+        ],
+        "example_phrases": [
+          "We be blazing that sticky-icky all night.",
+          "Puffin’ on some loud, feeling right.",
+          "Chiefin’ on the kush, riding high.",
+          "Burn one down, let the smoke rise.",
+          "Toking on the green, vibin’ with the crew."
+        ],
+        "rhyme_pairs": [
+          "weed/seed", "bud/flood", "high/sky", "blaze/raise", "puff/stuff"
+        ]
+      }
+    ]
+  },
+  
+  
+  "emotional_dynamics": {
+    "intro": 3,       
+    "verse_1": 7,
+    "hook_1": 8,
+    "verse_2": 6,
+    "bridge": 5,
+    "outro": 2,
+    "enforce_emotional_arc": true 
+  },
+
+  
+  
+  "voice_personalization": {
+    "use_slang": true,                 
+    "use_idiosyncratic_expressions": true, 
+    "recurring_motifs": true          
+  },
+
+  
+  
+  "storytelling": {
+    "use_character_profiles": true,   
+    "character_profiles": [
+      {
+        "name": "The Watcher",
+        "role": "Paranoid observer",
+        "traits": ["vigilant", "isolated", "reflective"]
+      }
+    ],
+    "use_story_outline": true,         
+    "story_outline": "A person struggling with constant surveillance and their fight for privacy and sanity."
+  },
+
+  
+  
+  "imagery_sensory_detail": {
+    "use_vivid_imagery": true,         
+    "use_sensory_language": true,      
+    "encourage_metaphors": true,       
+    "encourage_similes": true,         
+    "encourage_personification": false,
+    "encourage_hyperbole": false       
+  },
+
+  
+  
+  "imperfection_vulnerability": {
+    "include_self_doubt": true,        
+    "allow_conflicted_emotions": true, 
+    "include_flaws": true,             
+    "allow_contradictions": true       
+  },
+
+  
+  
+  "rhythmic_variation": {
+    "allow_micro_variations": true,    
+    "use_pauses": true,                
+    "use_syncopation": true,           
+    "use_unexpected_stresses": true    
+  },
+
+  
+  
+  "conversational_tone": {
+    "use_direct_address": true,        
+    "use_rhetorical_questions": true,  
+    "use_conversational_phrasing": true
+  },
+
+  
+  
+  "repetition_hooking": {
+    "use_strategic_repetition": true,  
+    "include_call_and_response": true, 
+    "use_echoing_motifs": true          
+  },
+
+  
+  
+  "layered_meaning": {
+    "allow_ambiguity": true,            
+    "use_double_entendres": true        
+  },
+
+  
+  
+  "cultural_authenticity": {
+    "include_cultural_references": true, 
+    "use_idioms": true,                   
+    "include_historical_context": false  
+  },
+
+  
+  
+  "flow_style": {
+    "intro": {
+      "straight": true,      
+      "syncopated": false,   
+      "triplet": false,      
+      "double-time": false,  
+      "half-time": false     
+    },
+    "verse_1": {
+      "straight": false,
+      "syncopated": true,
+      "triplet": false,
+      "double-time": false,
+      "half-time": false
+    },
+    "hook_1": {
+      "straight": true,
+      "syncopated": false,
+      "triplet": false,
+      "double-time": false,
+      "half-time": false
+    },
+    "verse_2": {
+      "straight": false,
+      "syncopated": false,
+      "triplet": true,
+      "double-time": false,
+      "half-time": false
+    },
+    "bridge": {
+      "straight": false,
+      "syncopated": false,
+      "triplet": false,
+      "double-time": true,
+      "half-time": false
+    },
+    "outro": {
+      "straight": true,
+      "syncopated": false,
+      "triplet": false,
+      "double-time": false,
+      "half-time": false
+    }
+  },
+
+  
+  
+  "content_filters": {
+    "profanity": {
+      "allow": true,  
+      "block": false, 
+      "soften": false 
+    },
+    "sensitive_topics": {
+      "violence": false,
+      "self-harm": false,
+      "sexual_content": false,
+      "drug_references": false,
+      "political": true
+    }
+  },
+
+  
+  
+  "musical_cues": {
+    "intro": "Reference the vinyl crackle.",
+    "hook_1": "Mention the rising synth line.",
+    "bridge": "Tie lyrics to a sudden beat drop."
+  },
+
+  
+  
+  "performance_notes": {
+    "verse_1": "Deliver with a hushed, urgent tone.",
+    "hook_1": "Emphasize with strong projection.",
+    "bridge": "Slow down and let words breathe."
+  },
+
+  
+  
+  "custom": {
+    "experimental_feature": false,
+    "use_ai_voice_suggestions": false,
+    "alternate_rhyme_engine": false
+  },
+
+  
+  
+  "generation_parameters": {
+    "temperature": 0.9,           
+    "top_p": 0.9,                 
+    "top_k": 100,                 
+    "frequency_penalty": 0.2,     
+    "presence_penalty": 0.3,      
+    "no_repeat_ngram_size": 2,    
+    "max_tokens": 300,            
+    "stop_sequences": {           
+      "<|endofverse|>": true,
+      "<|endofsong|>": false     
+    },
+      "logit_bias": {               
+      "60353": 8,    
+      "fire": -100,
+	 "ash": -100,
+      "ashes": -100,
+      "crazy": -100,
+      "shadow": 7,
+      "bunker": 7,
+      "hallucinate": 7
+      
+    },
+    "sampling_method": {
+      "nucleus": true,
+      "top-k": false,
+      "greedy": false
+    },
+    "seed_value": 42,             
+    "length_penalty": 0,
+    "max_retries": 3,
+    "early_stopping": true
+  },
+
+  
+  
+  "context_injection": {
+    "embedding_query_source": {
+      "user_request": true,
+      "database": false,
+      "none": false
+    },
+    "custom_query_text": "",      
+    "top_k_results": 3,           
+    "merge_strategy": {
+      "newline_join": true,       
+      "space_join": false,
+      "concat": false
+    },
+    "enabled": true,
+    "max_context_length": 512,    
+    "context_weight": 0.8         
+  },
+
+  
+  
+  "rhyme_control": {
+    "rhyme_patterns": {
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      "default": "AABB",  
+      "section_overrides": {
+        "hook_1": "AABBA",  
+        "verse_1": "ABAB",  
+        "bridge": "ABBA"    
+      }
+    },
+    "rhyme_types": {
+      "require_multisyllabic": true,  
+      "allow_slant": true,            
+      "disallow_perfect": true,       
+      "allow_mosaic": true,           
+      "allow_assonance": true,        
+      "allow_consonance": false,      
+      "allow_eye_rhyme": false,       
+      "allow_internal": true,         
+      "allow_identical": false,       
+      "allow_forced": false,          
+      "allow_rich": false,            
+      "allow_pararhyme": false,       
+      "allow_homograph": false,       
+      "allow_near_homophone": false,  
+      "allow_broken": true,           
+      "allow_feminine": false,         
+      "allow_masculine": true,        
+      "allow_wrenched": false,        
+      "allow_syllabic": true,         
+      "allow_cross": true,            
+      "allow_chain": true,            
+      "allow_echo": true,             
+      "allow_semantic": true,         
+      "allow_multilingual": false     
+    },
+    "rhyme_exclusions": {
+      "banned_pairs": {
+        "pain/gain": true,
+        "money/funny": true,
+        "it/bit": true,
+        "up/cut": true,
+        "love/dove": true
+      },
+      "block_forced_slant": true, 
+      "banned_constructs": {
+  "You weak like...": true,                  
+  "I was lost but now I'm found": true,     
+  "Shoot for fun": true,                     
+  "skrrt!": true,                           
+  "I fly high in the sky": true,             
+  "Stay blessed": true,                      
+  "Cold like ice": true,                     
+  "Hard as a rock": true,                    
+  "Fly like a bird": true,                    
+  "Money on my mind": true,                   
+  "Ride or die": true,                        
+  "Heart full of pain": true,                 
+  "Living life fast": true,                   
+  "Never gonna stop": true,                   
+  "Hustle every day": true,                   
+  "Got no time to play": true,                 
+  "Stacking up my chips": true,                
+  "On another level": true,                     
+  "Balling like a pro": true,                   
+  "Making moves": true,                         
+  "Living like a king": true,                   
+  "Breaking all the rules": true,               
+  "Shining bright": true,                        
+  "Got my back": true,                           
+  "On the grind": true,                          
+  "Feel the pain": true                          
+      },
+      "block_predictable_spacing": true,  
+      "block_similes": true,               
+      "block_uneven_tone_switches": true  
+    }
+  },
+
+  
+  
+  "rhyme_density": {
+    "min_internal_rhymes_per_line": 3, 
+    "require_chain_rhyming": true,      
+    "allow_broken_rhymes": true,        
+    "allow_nested_rhymes": true,        
+    "target_density_per_section": {
+      "verse_1": 90,  
+      "hook_1": 75,   
+      "verse_2": 85,  
+      "bridge": 80    
+    }
+  },
+
+  
+  
+  "syllable_control": {
+    "target_syllables_per_line": 12,      
+    "enforce_uniform_line_length": true, 
+    "offset_bars": {                      
+      "bar_4": true,
+      "bar_8": true,
+      "bar_12": true,
+      "bar_16": false
+    },
+    "min_syllables_per_line": 8,          
+    "max_syllables_per_line": 16,         
+    "allow_variation": false,              
+    "syllable_pattern": {
+      "strict": true,                     
+      "loose": false,
+      "free": false
+    }
+  },
+
+  
+  
+  "phonetic_control": {
+    "section_alliteration": {
+      "verse_1": { "b": true, "p": true, "t": false }, 
+      "verse_2": { "k": true, "g": true },
+      "hook_1": { "s": true, "sh": true }
+    },
+    "section_sibilance": {
+      "hook_1": { "s": true, "sh": true },
+      "chorus": { "s": true, "z": true }
+    },
+    "consonance_targets": {
+      "verse_1": { "n": true, "m": true },
+      "verse_2": { "t": true, "d": true },
+      "hook_1": { "l": true, "r": true }
+    }
+  }
+}}
